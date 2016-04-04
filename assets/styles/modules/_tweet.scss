@@ -1,0 +1,42 @@
+ul {
+  padding: 0;
+  margin: 10px auto;
+  width: 50%;
+  display: block;
+
+  li {
+    list-style-type: none;
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #F7F7F7;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 0px #CCCACA;
+
+    aside {
+      display: inline-block;
+      padding: 10px;
+      max-width: 20%;
+
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+    }
+
+    div {
+      display: inline-block;
+      max-width: 80%;
+
+      .name {
+        font-weight: bold;
+      }
+
+      .content {
+
+      }
+    }
+  }
+}
