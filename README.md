@@ -9,7 +9,7 @@ Inside the repository there are two things to configure : your twitter applicati
 First one is inside `config/twitter.js`, just change the following: 
 
 ```javascript
-var twitter = {
+module.exports.twitter = {
     consumer_key: 'xxxxx',
     consumer_secret: 'xxxxx',
     access_token_key: 'xxxxx',
