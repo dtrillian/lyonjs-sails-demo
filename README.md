@@ -20,11 +20,11 @@ var twitter = {
 The second is inside `api/controllers/TweetController.js`, just change `'#lyonjs'` tag by whatever tags you want to track :
 
 ```javascript
-    // Set a stream listener for tweets matching tracking keywords
-		twitterClient.stream('statuses/filter', {
-			track: '#lyonjs' --> here : e.g: '#test,lyonjs,games' etc
-		}, function(stream) {
-			streamTweets(stream, Tweet, sails);
-			console.log("tweets stream: ", stream);
-		});
+// Set a stream listener for tweets matching tracking keywords
+twitterClient.stream('statuses/filter', {
+	track: '#lyonjs' --> here : e.g: '#test,lyonjs,games' etc
+}, function(stream) {
+	streamTweets(stream, Tweet, sails);
+	console.log("tweets stream: ", stream);
+});
 ```
